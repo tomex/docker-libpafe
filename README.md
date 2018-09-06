@@ -8,7 +8,7 @@
   * RC-S320
     * [muojp版libpafe](https://github.com/muojp/libpafe)が動けばなんでもいい
 * OS
-  * Mac上のDocker(米docker-machineコマンドとVirtualBox必須)
+  * Mac上のDocker(※docker-machineコマンドとVirtualBox必須)
   * Linux上のDocker
 * その他
   * 動かなくても動かしたいと思う気持ち
