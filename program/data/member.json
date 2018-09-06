@@ -1,0 +1,15 @@
+{
+    "members": [
+        {
+            "id": 0,
+            "first_name": "Tomex",
+            "last_name": "Taro"
+        }
+    ],
+    "cards": [
+        {
+            "idm": "0101010101010101",
+            "member_id": 0
+        }
+    ]
+}

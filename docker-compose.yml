@@ -1,0 +1,10 @@
+version: '3'
+services:
+  libpafe:
+    build:
+      context: .
+    tty: true
+    privileged: true
+    volumes:
+      - "./program:/program"
+    command: "sh /program/test.sh"
