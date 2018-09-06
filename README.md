@@ -25,14 +25,14 @@
 1. `docker-machine start default`で仮想マシンを立ち上げる
 1. `alias docker-machine-default='eval "$(docker-machine env default)"'`とかそんなやつを`~/.zshrc`とか`~/.bash_profile`あたりに追加しておく
 1. `docker-machine-default`と打って環境変数を設定する
-  * 何かしらで仮想マシンを再起動した場合には`docker-machine start default`したあとに`docker-machine-default`をするべし
+  - 何かしらで仮想マシンを再起動した場合には`docker-machine start default`したあとに`docker-machine-default`をするべし
 
 ## 動作環境方法
 
 1. `git clone https://github.com/tomex/docker-libpafe.git`でプログラムを落としておく
 1. `cd docker-libpafe`でカレントディレクトリを移動
 1. `docker-compose build`でビルドをする
-  * 1回目はビルドに失敗する可能性高め
+  - 1回目はビルドに失敗する可能性高め
 1. `docker-compose build`で再度ビルドをする
 1. ビルドに成功したら`docker-compose up -d`で起動する
 1. 起動してから少しの間はPasoriがFelicaを検知しようと頑張るのでPASMOなどをかざした後に`docker-compose logs`でログを確認して楽しむ
